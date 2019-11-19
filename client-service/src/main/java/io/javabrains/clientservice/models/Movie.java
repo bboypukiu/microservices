@@ -1,4 +1,4 @@
-package io.javabrains.moviecatalogservice.models;
+package io.javabrains.clientservice.models;
 
 public class Movie {
     private String movieId;

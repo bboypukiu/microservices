@@ -1,4 +1,4 @@
-package io.javabrains.moviecatalogservice;
+package io.javabrains.clientservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,10 +9,10 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class MovieCatalogServiceApplication {
+public class ClientServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MovieCatalogServiceApplication.class, args);
+		SpringApplication.run(ClientServiceApplication.class, args);
 	}
 
 	@LoadBalanced
